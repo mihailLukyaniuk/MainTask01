@@ -7,20 +7,23 @@
 package by.epam.javatraining.mikhaillukyaniuk.tasks.maintask01.model;
 
 public class VectorInitialize {
+	
 	private double[] array;
 
 	public VectorInitialize(double[] array) {
 		this.array = array;
 	}
-
-	public double[] getArr() {
+	
+	public VectorInitialize() {
+	}
+	
+	public double[] getArray() {
 		return array;
 	}
 
-    
-       
-
-        
+	public void setArray(double[] array) {
+		this.array = array;
+	}
 
         
 
